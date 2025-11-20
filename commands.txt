@@ -1,8 +1,8 @@
 #to use ipynb with venv#
 python -m venv my_venv
-my_venv\Scripts\activate
 pip install ipykernel
 python -m ipykernel install --user --name=my_venv_kernel --display-name "Python (my_venv)"
+my_venv\Scripts\activate
 jupyter lab
 
 
