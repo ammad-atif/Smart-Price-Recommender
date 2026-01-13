@@ -4,3 +4,4 @@ pip install ipykernel
 python -m ipykernel install --user --name=my_venv_kernel --display-name "Python (my_venv)"
 my_venv\Scripts\activate
 jupyter lab
+pip freeze > requirements.txt
